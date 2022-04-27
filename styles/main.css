@@ -1,5 +1,43 @@
+/*MAIN*/
+.imagenSobreNosotros {
+    width: 100%;
+}
+
+.imagenPista {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        background-image: url(../images/imagenFondo2.jpg);
+        background-position: center;
+    }
+
+    .imagenSobreNosotros {
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 25px;
+
+    }
+
+    .imagenPista {
+        border: 2px solid black;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .imagenPista {
+        width: 700px;
+    }
+}
+
+
+
+/*FOOTER*/
+
 .textAreaPersonalizado {
-    height: 150px !important; 
+    height: 150px !important;
 }
 
 .imageFooter {
