@@ -1,4 +1,4 @@
-/*MAIN*/
+/*SOBRE NOSOTROS*/
 .imagenSobreNosotros {
     width: 100%;
 }
@@ -7,12 +7,16 @@
     width: 100%;
 }
 
+
+
 @media screen and (min-width: 768px) {
     main {
         background-image: url(../images/imagenFondo2.jpg);
         background-position: center;
     }
 
+    
+    /*INDEX*/
     .imagenSobreNosotros {
         width: 500px;
         border: 2px solid black;
@@ -23,6 +27,11 @@
     .imagenPista {
         border: 2px solid black;
         border-radius: 25px;
+    }
+
+    /*RESULTADOS*/
+    .table {
+        width: 500px;
     }
 }
 
