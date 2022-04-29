@@ -1,5 +1,9 @@
-/*SOBRE NOSOTROS*/
-.imagenSobreNosotros {
+.fondoCuadros {
+    background-image: url(../images/imagenFondo2.jpg);
+    background-position: center;
+}
+
+*SOBRE NOSOTROS*/ .imagenSobreNosotros {
     width: 100%;
 }
 
@@ -15,7 +19,7 @@
         background-position: center;
     }
 
-    
+
     /*INDEX*/
     .imagenSobreNosotros {
         width: 500px;
@@ -35,7 +39,7 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .imagenPista {
         width: 700px;
     }
